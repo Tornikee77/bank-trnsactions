@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font/Poppins-Regular.ttf);
+}
+body {
+  font-family: "Poppins";
+  width: 1440px;
+  width: 100%;
+  background-color: #00040f;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.last-trans-cont {
+  margin: 20vh auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 335px;
+  height: 380px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(20, 16, 29, 1) 100%
+  );
+  gap: 24px;
+  padding-left: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.last-trans-cont h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  margin-top: 26px;
+}
+
+.sections {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.sections img {
+  width: 40px;
+  height: 40px;
+}
+
+.sections h3 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+.sections p {
+  font-size: 12px;
+  color: #ffffff70;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  gap: 4px;
+}
+.price img {
+  width: 15px;
+  height: 14px;
+}
+.price h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.price {
+  display: flex;
+  margin-left: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.price img {
+  width: 15px;
+  height: 14px;
+}
+.price h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.netflix-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.netflix .price {
+  margin-left: 97px;
+}
+.manulife-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #dffff0;
+}
+.manulife .price {
+  margin-left: 50px;
+}
+.manulife-bg img {
+  width: 18px;
+  height: 19px;
+}
+
+/* payment container */
+
+.second-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 227px;
+  height: 216px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(20, 16, 29, 1) 100%
+  );
+  padding: 20px 19px 23px 20px;
+  top: 30px;
+  left: -400px;
+}
+.paypal {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.second-container .info-cont h3 {
+  font-size: 24px;
+  color: #ffffff;
+}
+.second-container .info-cont p {
+  font-size: 12px;
+  color: #ffffff70;
+}
+.paypal-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.exchange-container {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 19px;
+}
+.exchange-container h3 {
+  font-size: 24px;
+  color: #ffffff;
+}
+.exchange-container p {
+  font-size: 12px;
+  color: #ffffff70;
+}
+
+.button-container button {
+  width: 70px;
+  height: 33px;
+  color: rgb(51, 187, 207);
+  border: 1px solid rgb(51, 187, 207);
+  background-color: transparent;
+  cursor: pointer;
+}
+.payment-button button {
+  width: 188px;
+  height: 33px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(51, 187, 207);
+  background: linear-gradient(
+    180deg,
+    rgba(51, 187, 207, 1) 100%,
+    rgba(92, 225, 230, 1) 100%,
+    rgba(125, 231, 235, 1) 100%,
+    rgba(222, 249, 250, 1) 100%,
+    rgba(190, 243, 245, 1) 100%,
+    rgba(157, 237, 240, 1) 100%
+  );
+  color: #ffffff;
+  cursor: pointer;
+}
+.submition {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: #ffffff;
+  width: 324px;
+  height: 54px;
+  left: 500px;
+  bottom: 220px;
+  border-radius: 10px;
+}
+.submition img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.submition p {
+  font-size: 14px;
+  color: #080915;
+}
+.Advertisement-container {
+  width: 470px;
+  height: 530px;
+  flex-direction: column;
+}
+.Advertisement-container h2 {
+  color: #ffffff;
+  font-size: 42px;
+  width: 400px;
+  height: 154px;
+  margin-top: 100px;
+}
+.Advertisement-container p {
+  font-size: 18px;
+  width: 470px;
+  height: 87px;
+  color: #ffffff70;
+}
+.download-supports {
+  display: flex;
+  gap: 33px;
+  margin-top: 49px;
+}
